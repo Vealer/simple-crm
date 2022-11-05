@@ -12,6 +12,7 @@ export class DialogAddUserComponent implements OnInit {
   loading = false;
   user: User = new User();
   birthDate: Date;
+  
 
   constructor(public dialogRef: MatDialogRef<DialogAddUserComponent>,  private firestore: Firestore) {}
 
